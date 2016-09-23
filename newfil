@@ -1,4 +1,4 @@
 #!/bin/bash
-
+Hej med dig
 echo $1
 echo 'rip'
