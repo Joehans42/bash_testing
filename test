@@ -1,0 +1,12 @@
+#!/bin/bash
+x=$#-1
+for arg in $@
+do
+	argArray[$x]=$arg
+	x=$(($x-1))
+done
+y=$((${#argArray[@]}-1))
+for i in `seq 0 $y`
+do
+	echo ${argArray[$i]}
+done

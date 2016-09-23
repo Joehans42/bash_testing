@@ -1,0 +1,10 @@
+#!/bin/bash
+
+num=$1
+exp=$2
+while exp -gt 1
+do
+	let exp=exp/2
+done
+
+for number in `seq 0 
